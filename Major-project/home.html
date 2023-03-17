@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Learning Platform</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+			background-image: url('https://elearningtrade.unctad.org/pluginfile.php/1/theme_lambda/slide1image/1674480842/ELEARNING%20ON%20TRADE%20WEBSITE-01%20%281%29.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+		}
+		header {
+			background-color: #ffffff;
+			padding: 20px;
+			text-align: center;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			color: #333333;
+		}
+		p {
+			margin: 0;
+			font-size: 18px;
+			color: #666666;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 50px 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		.box {
+			background-color: #ffffff;
+			padding: 40px;
+			margin: 20px;
+			border-radius: 10px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			flex-basis: 300px;
+		}
+		h2 {
+			font-size: 24px;
+			color: #333333;
+			margin-bottom: 20px;
+		}
+		button {
+			background-color: #0077cc;
+			color: #ffffff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		button:hover {
+			background-color: #005ea6;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1>Welcome to E-Learning Platform</h1>
+		<p>Learn from the comfort of your own home</p>
+        <button class="home-button" onclick="window.location.href='home.html'">Home</button>
+        <button class="login-button" onclick="window.location.href='student-login.html'">Student Login</button>
+        <button class="signup-button" onclick="window.location.href='signup.html'">Sign Up</button>
+        <button class="Admin-button" onclick="window.location.href='Admin.html'">Admin Login</button>
+		<button class="Contact-button" onclick="window.location.href='contact.html'">Contact Us</button>
+		<button class="about-button" onclick="window.location.href='aboutus.html'">About Us</button>
+
+
+	</header>
+	<div class="container">
+		<div class="box">
+			<h2>Programming</h2>
+			<p>Learn coding languages from experts in the field</p>
+			<button class="Programming-button" onclick="window.location.href='Programming-enroll.html'">Enroll Now</button>
+		</div>
+		<div class="box">
+			<h2>Design</h2>
+			<p>Learn graphic design and digital media skills</p>
+			<button class="Digital-button" onclick="window.location.href='GD-DM.html'">Enroll Now</button>
+		</div>
+		<div class="box">
+			<h2>Language</h2>
+			<p>Learn a new language from native speakers</p>
+			<button class="language-button" onclick="window.location.href='language.html'">Enroll Now</button>
+		</div>
+	</div>
+</body>

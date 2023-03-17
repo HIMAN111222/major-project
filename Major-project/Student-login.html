@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Login</title>
+	<link rel="stylesheet" href="mystyle.css">
+	<style>
+		/* Center the login form */
+		body{
+			background-color: linen;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		
+	</header>
+	<main>
+		<form action="/login" method="post">
+			<h2>Login</h2>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<input type="submit" value="Login">
+		  </form>
+	</main>
+	<footer>
+		<!-- copyright information -->
+		<p>&copy; 2023 Your Company Name. All Rights Reserved. | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Use</a></p>
+  <p>Disclaimer: This website is for informational purposes only and does not provide legal advice. Use of this site is subject to the Terms of Use.</p>
+	</footer>
+</body>
+</html>
